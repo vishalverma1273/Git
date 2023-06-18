@@ -1,0 +1,21 @@
+git config --global user.name ___  // set the name 
+git config --global user.email ___  // set the email
+git config --global user.email  // check the set name,email
+git init // Initialized empty Git repository 
+git ls -lart // show all files hidden or normal
+git status // show status
+git add filename // staging
+git add -A // staging all files
+
+
+i // write in vim editor
+Esc : w q // Exit the vim editor 
+
+touch filename // create blank file
+clear // clear terminal
+
+git commit -m "Message" // Commit 
+git checkout filename // match with last commit , give last commit file data 
+git checkout -f // match with all file with last commit , give last commit all file data 
+git log // give all information about commit 
+git log -p -2 // see last 2 commit 
